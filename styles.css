@@ -4,19 +4,46 @@ body {
      
 }
 
-.assignment {
+.assingments {
     display:flex;
-    padding:10px;
+    flex-wrap:wrap;
+}
+
+.assignment {
+    width:22%;
+    padding:20px 10;
     margin:10px;
     background:lightgray;
+    border-radius:5px;
 }
 
 .assignment img {
     width:200px;
-    padding:10px;
+    margin:10px;
+    border:4px solid #FFF;
+    display:block;
+    margin:auto;
+
+
 }
 
 h1 {
     color: darkorchid;
     text-align: center;
 } 
+h1:hover {
+    color:#F25C69;
+}
+
+h2 {
+    text-align:center;
+}
+
+a {
+    text-decoration:none;
+    color:#FFF;
+}
+
+a:hover {
+    color: #F25C69;
+}
